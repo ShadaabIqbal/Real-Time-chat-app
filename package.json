@@ -1,0 +1,32 @@
+{
+  "name": "real-time-chat-app",
+  "version": "1.0.0",
+  "description": "Real Time Chat App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShadaabIqbal/Real-Time-chat-app.git"
+  },
+  "keywords": [
+    "Chat",
+    "App"
+  ],
+  "author": "Shadaab Iqbal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShadaabIqbal/Real-Time-chat-app/issues"
+  },
+  "homepage": "https://github.com/ShadaabIqbal/Real-Time-chat-app#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "socket.io": "^4.5.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
